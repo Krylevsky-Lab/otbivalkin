@@ -6,4 +6,21 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+earcutr = "0.4.2"
 macroquad = { version = "0.4.1", features = ["audio"] }
+random = "0.14.0"
+tap = "1.0.1"
+triangular = "0.1.1"
+triangulate = "0.2.0"
+
+[[bin]]
+name = "single_figures"
+path = "src/single_figures.rs"
+
+[[bin]]
+name = "single_sprite"
+path = "src/single_sprite.rs"
+
+[[bin]]
+name = "cursor_clicker"
+path = "src/cursor_clicker.rs"
