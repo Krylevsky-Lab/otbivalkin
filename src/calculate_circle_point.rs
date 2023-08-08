@@ -12,7 +12,7 @@
 
 use std::f32::consts::PI;
 
-pub fn calculate_circle_point(index: i32, points: i32, abra: f32, radius: f32, x: f32, y: f32) -> (f32, f32, f32)
+pub fn calculate_circle_point(index: i32, points: i32, radius: f32, x: f32, y: f32) -> (f32, f32, f32)
 {
 	let slice = 2.0 * PI / points as f32;
 	let angle = slice * index as f32;

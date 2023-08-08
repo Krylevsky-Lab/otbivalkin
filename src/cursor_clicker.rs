@@ -45,7 +45,6 @@ impl Draw for Cursor {
 #[macroquad::main("Game")]
 async fn main() {
 	request_new_screen_size(800.0, 600.0);
-	
 
 	let cookie_texture = load_texture("cookie.png").await.unwrap();
 	let cursor_texture = load_texture("cursor.png").await.unwrap();
